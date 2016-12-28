@@ -1,6 +1,6 @@
 Virtual Machine with metrics of CPU utilization
 ====================
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/lune-bleue/ARMTemplateCustom/master/vm-metrics-cpuUtil/vm-metrics-cpuUtil/azuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Flune-bleue%2FARMTemplateCustom%2Fmaster%2Fvm-metrics-cpuUtil%2Fvm-metrics-cpuUtil%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
