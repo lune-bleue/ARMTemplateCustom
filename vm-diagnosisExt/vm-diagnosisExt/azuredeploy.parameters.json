@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "myStorageAccount"
+      "value": "myStorageAccount1"
     },
     "adminUsername": {
       "value": "0000920627"
@@ -12,10 +12,10 @@
       "value": "[concat('dns', uniqueString(resourceGroup().id))]"
     },
     "existingdiagnosticsStorageAccountName": {
-      "value": "myDiagnosticsStorageAccount"
+      "value": "myDiagnosticsStorageAccount1"
     },
     "existingdiagnosticsStorageResourceGroup": {
-      "value": "myDiagnosticsResourceGroup"
+      "value": "myDiagnosticsResourceGroup1"
     }
   }
 }
