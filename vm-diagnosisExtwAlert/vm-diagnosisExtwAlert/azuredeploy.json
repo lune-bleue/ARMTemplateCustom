@@ -20,12 +20,12 @@
         "description": "Password for the Virtual Machine."
       }
     },
-    //"dnsNameForPublicIP": {
-    //  "type": "string",
-    //  "metadata": {
-    //    "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
-    //  }
-    //},
+    "dnsNameForPublicIP": {
+      "type": "string",
+      "metadata": {
+        "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
+      }
+    },
     "windowsOSVersion": {
       "type": "string",
       "defaultValue": "2012-R2-Datacenter",
@@ -66,7 +66,6 @@
     "vmStorageAccountContainerName": "vhds",
     "vmName": "MyVM",
     "vmSize": "Standard_A2",
-    "dnsNameForPublicIP": "",
     "virtualNetworkName": "MyVNET",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]",
     "subnetRef": "[concat(variables('vnetID'),'/subnets/',variables('subnetName'))]",
@@ -108,7 +107,7 @@
       "properties": {
         "publicIPAllocationMethod": "[variables('publicIPAddressType')]",
         "dnsSettings": {
-          "domainNameLabel": "[variables('dnsNameForPublicIP')]"
+          "domainNameLabel": "[parameters('dnsNameForPublicIP')]"
         }
       }
     },
