@@ -1,3 +1,3 @@
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fgithub%2ecom%2flune%2dbleue%2fARMTemplateCustom%2fblob%2fmaster%2fvm%2ddiagnosisExt%2fvm%2ddiagnosisExt%2fazuredeploy%2ejson" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Flune-bleue%2FARMTemplateCustom%2Fmaster%2Fvm-metrics-cpuUtil%2Fvm-metrics-cpuUtil%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
