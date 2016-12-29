@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "vm-diagnosisExt", "vm-diagnosisExt\vm-diagnosisExt.deployproj", "{FE5223B8-150D-40C6-84A8-445EC523B796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE5223B8-150D-40C6-84A8-445EC523B796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5223B8-150D-40C6-84A8-445EC523B796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5223B8-150D-40C6-84A8-445EC523B796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5223B8-150D-40C6-84A8-445EC523B796}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
