@@ -80,7 +80,7 @@
     "vmID": "[resourceId('Microsoft.Compute/virtualMachines',variables('vmName'))]",
     "location": "Japan East",
     "alertIsEnabled": true,
-    "metricName": "Memory percentage",
+    "metricName": "\\Memory\\% Committed Bytes In Use",
     "operator": "GreaterThan",
     "threshold": "50",
     "windowSize": "00:10:00",
